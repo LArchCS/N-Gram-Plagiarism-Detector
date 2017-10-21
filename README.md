@@ -30,7 +30,7 @@ N-Gram-Plagiarism-Detector/
 			Tests.java
 ```
 
-There are 6 java files in this program
+There are 6 java files in this program.
 - ```plagiarismDetector.java```
 This .java contains the main function. It is responsible to interact with user, validate user input, print information and provide input format sample, check file existence & readability, and report plagiarism rate.
 - ```datastructure/NTuple.java```
@@ -56,8 +56,8 @@ java plagiarismDetector/PlagiarismDetector
 java plagiarismDetector/test/Tests
 ```
 
-If run the test files, 15 True will be displayed indicating the 15 test cases.
-If run the main file, you will see:
+If run `Tests.java`, 15 True will be displayed indicating the 15 test cases.
+If run `PlagiarismDetector.java`, you will see:
 ```
 Welcome to Plagiarism Detector!
 
