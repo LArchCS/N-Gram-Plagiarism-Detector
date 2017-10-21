@@ -1,5 +1,5 @@
 # N-Gram-Plagiarism-Detector
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)Notice: this is an assignment I received. If you receive similar assignment, please do not use code in this repository.<br /><br />
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Notice: this is an assignment I received. If you receive similar assignment, please do not use code in this repository.<br /><br />
 Using N-gram comparison algorithm to detect plagiarism and synonyms between files. For example, if:
 ```
 syns.txt:
