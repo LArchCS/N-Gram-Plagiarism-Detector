@@ -12,7 +12,7 @@ file2.txt:
 go for a jog
 ```
 
-The Plagiarism rate between file1 and file2, using syns.txt, will be: 100%
+The Plagiarism rate between file1 and file2, using syns.txt, will be: 100%.
 
 ## File structure
 ```
@@ -42,7 +42,7 @@ This File Utility class is to provide basic file operation functions – read fi
 - ```utils/DetectorUtils.java```
 This Detector Utility class is to take files selected by users (passed in by plagiarismDetector.java), compare files, and compute plagiarism rate.
 - ```test/Tests.java```
-This is a test file, containing –
+This is a test file, contains –
 6 unit tests;
 4 default file tests and 2 breakLine file tests;
 3 additional file tests.
