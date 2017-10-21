@@ -1,7 +1,6 @@
 # N-Gram-Plagiarism-Detector
 Notice: this is an assignment I received. If you receive similar assignment, please do not use code in thie repository.<br /><br />
-Using N-gram comparison algorithm to detect plagiarism and synonyms between files.<br />
-For example, if:
+Using N-gram comparison algorithm to detect plagiarism and synonyms between files. For example, if:
 ```
 syns.txt:
 run sprint jog
