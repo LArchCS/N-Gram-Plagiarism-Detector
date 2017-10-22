@@ -102,12 +102,12 @@ public class PlagiarismDetector {
 	 * @return int
 	 */
 	public static int validateInteger(String input) {
-		try {
-            int capacity = Integer.parseInt(input);
-            return capacity;
-        } catch (NumberFormatException e) {
-            return -1;
-        }
+	    try {
+            	int capacity = Integer.parseInt(input);
+            	return capacity;
+            } catch (NumberFormatException e) {
+                return -1;
+            }
 	}
 
 	/**
