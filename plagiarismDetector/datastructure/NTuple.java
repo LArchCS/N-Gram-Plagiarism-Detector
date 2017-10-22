@@ -9,7 +9,7 @@ import java.util.ArrayList;
  *
  */
 public class NTuple {
-	private int capacity;
+    private int capacity;
     private List<String> words;
 
     /**
