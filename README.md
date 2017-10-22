@@ -71,7 +71,12 @@ Please type in the parameters seperated by <SPACE> or <DELIMITER>. For example:
 syns.txt | file1.txt | file2.txt | 3
 Or enter EXIT to exit
 ```
-The simplest way to test the code is to copy and paste in your console
+The simplest way to test the code is to copy and paste in your console:
 ```
 syns.txt | file1.txt | file2.txt | 3
 ```
+Then the console will respond:
+```
+The plagiarism rate between file1.txt and file2.txt is: 100.00%
+```
+Since this is running aforementioned syns.txt, file1.txt, file2.txt.
