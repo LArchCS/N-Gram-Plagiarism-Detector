@@ -32,8 +32,8 @@ public class FileUtils {
 	        	String[] words = line.trim().toLowerCase().split("\\s+");
 	        	List<String> wordsList = Arrays.asList(words);
 	        	cleanUpList(wordsList);
-	            synMap.addSyns(wordsList);
-	            line = br.readLine();
+	            	synMap.addSyns(wordsList);
+	            	line = br.readLine();
 	        }
 	        br.close();
 		} catch (Exception e) {
