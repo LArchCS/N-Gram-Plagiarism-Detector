@@ -83,7 +83,7 @@ public class NTuple {
            String word2 = words2.get(i);
            if (synMap != null) {
         	   if (!synMap.areSyns(word1, word2)) {
-                   return false;
+                   	return false;
         	   }
            } else if (!word1.equals(word2)) {
         	   return false;
