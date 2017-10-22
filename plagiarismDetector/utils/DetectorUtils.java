@@ -36,18 +36,18 @@ public class DetectorUtils {
 	 * @return double
 	 */
 	public static double getPlagiarismRate(List<NTuple> nTuples1, List<NTuple> nTuples2, SynonymsMap synMap) {
-    	if (nTuples1.size() == 0)
-            return 0;
+		if (nTuples1.size() == 0)
+            		return 0;
 
-    	double count = 0;
-        for (NTuple nTuple1 : nTuples1) {
-            for (NTuple nTuple2 : nTuples2) {
-                if (nTuple1.isSame(nTuple2, synMap)) {
-                    count += 1;
-                	break;
-                }
-            }
-        }
-        return count / nTuples1.size();
-    }
+    		double count = 0;
+        	for (NTuple nTuple1 : nTuples1) {
+            		for (NTuple nTuple2 : nTuples2) {
+                		if (nTuple1.isSame(nTuple2, synMap)) {
+                    			count += 1;
+                			break;
+                		}
+            		}
+        	}
+       	 	return count / nTuples1.size();
+    	}
 }
