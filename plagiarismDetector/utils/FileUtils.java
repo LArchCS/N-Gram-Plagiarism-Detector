@@ -54,17 +54,17 @@ public class FileUtils {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			String line = br.readLine();
-	        List<String> wordsList = new LinkedList<String>();
-	        while (line != null) {
-	        	String[] words = line.trim().toLowerCase().split("\\s+");
-	        	List<String> newWordsList = Arrays.asList(words);
-	        	wordsList.addAll(newWordsList);
-	        	cleanUpList(wordsList);
-	            addNTuplesFromList(wordsList, capacity, nTuples);
-	            wordsList = getLeftOverList(wordsList, capacity);
-	            line = br.readLine();
-	        }
-	        br.close();
+	        	List<String> wordsList = new LinkedList<String>();
+	        	while (line != null) {
+	        		String[] words = line.trim().toLowerCase().split("\\s+");
+	        		List<String> newWordsList = Arrays.asList(words);
+	        		wordsList.addAll(newWordsList);
+	        		cleanUpList(wordsList);
+	            		addNTuplesFromList(wordsList, capacity, nTuples);
+	            		wordsList = getLeftOverList(wordsList, capacity);
+	            		line = br.readLine();
+	        	}
+	        	br.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -79,14 +79,14 @@ public class FileUtils {
 	 */
 	protected static void addNTuplesFromList(List<String> words, int capacity, List<NTuple> nTuples) {
 		for (int i = 0; i <= words.size() - capacity; i++) {
-            NTuple nTuple = new NTuple(capacity);
-            for (int j = i ; j < i + capacity; j++) {
-                nTuple.addWord(words.get(j));
-            }
-            if (nTuples.isEmpty() || !nTuples.get(nTuples.size() - 1).isSame(nTuple)) {
-            	nTuples.add(nTuple);
-            }
-        }
+            		NTuple nTuple = new NTuple(capacity);
+            		for (int j = i ; j < i + capacity; j++) {
+                		nTuple.addWord(words.get(j));
+            		}
+            		if (nTuples.isEmpty() || !nTuples.get(nTuples.size() - 1).isSame(nTuple)) {
+            			nTuples.add(nTuple);
+            		}
+            	}
 	}
 
 	/**
