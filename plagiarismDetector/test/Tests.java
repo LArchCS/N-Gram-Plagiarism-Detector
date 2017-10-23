@@ -37,7 +37,7 @@ public class Tests {
 		System.out.println(FileUtils.generateSynonymsMapFromFile(f).getMap().keySet().size() == 9);
 	}
 
-	// "  go \n for \n a \n run" should be [[go], [for] [a], [run]] if N == 1
+	// "  go \n for \n a \n run" should be [[go], [for], [a], [run]] if N == 1
 	public static void testTupleGeneration1() {
 		File f = new File("file1_breakLine.txt");
 		System.out.println(FileUtils.generateNTuplesFromFile(f, 1).size() == 4);
