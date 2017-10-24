@@ -1,5 +1,4 @@
 # N-Gram-Plagiarism-Detector
-&#x1F53A;&#x1F53A;&#x1F53A;Notice: this is an assignment I received. If you receive similar assignment, please do not use code in this repository.<br /><br />
 Using N-gram comparison algorithm to detect plagiarism and synonyms between files. For example, if:
 ```
 syns.txt:
