@@ -11,7 +11,7 @@ file2.txt:
 go for a jog
 ```
 
-The Plagiarism rate between file1 and file2, using syns.txt, will be: 100%.
+The Plagiarism rate between file1 and file2, using syns.txt, will be: 100%. Notice, jog and run are synonyms.
 
 ## File structure
 ```
