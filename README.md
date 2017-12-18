@@ -1,5 +1,5 @@
 # N-Gram-Plagiarism-Detector
-This is an programming task I received. The task description was vague. This program is basically implemented based on my understanding of N-Tuple plagiarism detection algorithm. It uses N-gram comparison algorithm to detect plagiarism between two files and also based on a synonym file. For example, if:
+This is a programming task I received. The task description was vague. This program is basically implemented based on my understanding of N-Tuple plagiarism detection algorithm. It uses N-gram comparison algorithm to detect plagiarism between two files and also based on a synonym file. For example, if:
 ```
 syns.txt:
 run sprint jog
